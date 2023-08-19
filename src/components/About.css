@@ -1,0 +1,127 @@
+.about {
+    height: 90vh;
+    display: flex;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    max-width: 700px;
+    z-index: 1;
+  /* margin-bottom: 0; */
+}
+
+.about h1 {
+    font-family: 'Archivo Black', sans-serif;
+    color: #F2F4F6;
+    text-shadow: #0D3F67 4px 4px 4px;
+    font-size: 3.2rem;
+    margin-bottom: 0;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: #F2F4F6;
+}
+
+.highlight-container,
+ .highlight {
+  position: relative;
+}
+
+.highlight-container{
+  display: inline-block;
+}
+.highlight-container:before {
+    content: ' ';
+    display: block;
+    height: 85%;
+    width: 98%;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: absolute;
+    background: #0D3F67;
+    opacity: 0.2;
+    transform: rotate(-2deg);
+    top: -1px;
+    left: -1px;
+    border-radius: 20% 25% 20% 24%;
+    padding: 10px 3px 3px 10px;
+}
+
+.blob-spin-right {
+    position: absolute;
+    opacity: 0.4;
+    left: 30%;
+    z-index: 0;
+    height: 103%;
+    animation: Spin-right infinite 10s linear;
+}
+
+.blob-center {
+    position: absolute;
+    z-index: 0;
+    height: 105%;
+    animation: Spin-left infinite 10s linear;
+}
+
+.blob-spin-left {
+    position: absolute;
+    opacity: 0.3;
+    right: 30%;
+    z-index: 0;
+    height: 103%;
+    animation: Spin-left infinite 15s linear;
+}
+
+  @keyframes Spin-right {
+
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+
+  }
+
+  @keyframes Spin-left {
+
+    from {
+      transform: rotate(360deg);
+    }
+  
+    to {
+      transform: rotate(0deg);
+    }
+
+  }
+
+  .about button {
+      border: none;
+      background: #F2F4F6;
+      padding: 1em;
+      margin: 0 1em;
+      border-radius: 20px;
+      box-shadow: 0px 5px 10px #0D3F67;
+      transition: all 0.3s ease 0s;
+  }
+
+  .about button a {
+    color: #0D3F67;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+  }
+
