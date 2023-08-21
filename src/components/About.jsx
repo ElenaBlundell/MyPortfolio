@@ -21,16 +21,16 @@ export default function About(){
             </svg>
             <section className="info">
                 <h1>Hi, my name is <span className="highlight">Elena</span></h1>
-                <p>I'm a <span class="highlight-container"><span className="highlight">Frontend Developer</span></span> based in USA.
-                    I mainly use <span class="highlight-container"><span className="highlight">CSS, JavaScript, APIs and React.js</span></span>. 
+                <p>I'm a <span className="highlight-container"><span className="highlight">Frontend Developer</span></span> based in USA.
+                    I mainly use <span className="highlight-container"><span className="highlight">CSS, JavaScript, APIs and React.js</span></span>. 
                      I love creating and building beautiful and fully responsive applications.
                     <br /><br />
-                    I am comfortable working in <span class="highlight-container"><span className="highlight">international</span></span> teams and I have years of <span class="highlight-container"><span className="highlight">experience</span></span> working
+                    I am comfortable working in <span className="highlight-container"><span className="highlight">international</span></span> teams and I have years of <span className="highlight-container"><span className="highlight">experience</span></span> working
                     in Beijing and Hong Kong within teams with diverse cultures and languages.
                 </p>
                 <div className="buttons-block">
-                    <button><a href="#tech" tabindex="-1">See tech I use</a></button>
-                    <button><a href="#projects" tabindex="-1">Jump to my projects</a></button>
+                    <button><a href="#tech" tabIndex="-1">See tech I use</a></button>
+                    <button><a href="#projects" tabIndex="-1">Jump to my projects</a></button>
                 </div>
             </section>
         </div>

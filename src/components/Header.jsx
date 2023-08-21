@@ -8,12 +8,25 @@ export default function Header(){
                     <h1 className="logo">Elena Blundell</h1>
                     <nav id="nav">
                         <ul>
-                            <li tabindex="-1"><a href="#about">About</a></li>
-                            <li tabindex="-1"><a href="#tech">Tech stack</a></li>
-                            <li tabindex="-1"><a href="#projects">Projects</a></li>
-                            <li tabindex="-1"><a href="#contacts">Contacts</a></li>
+                            <li tabIndex="-1"><a href="#about">About</a></li>
+                            <li tabIndex="-1"><a href="#tech">Tech stack</a></li>
+                            <li tabIndex="-1"><a href="#projects">Projects</a></li>
+                            <li tabIndex="-1"><a href="#contacts">Contacts</a></li>
                         </ul>
-                    </nav> 
+                    </nav>
+                    <div id="nav-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div id="nav-small">
+                        <ul>
+                            <li tabIndex="-1"><a href="#about">About</a></li>
+                            <li tabIndex="-1"><a href="#tech">Tech stack</a></li>
+                            <li tabIndex="-1"><a href="#projects">Projects</a></li>
+                            <li tabIndex="-1"><a href="#contacts">Contacts</a></li>
+                        </ul>
+                    </div>
                 </header>
            </div>
     )        
