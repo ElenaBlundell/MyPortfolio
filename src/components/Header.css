@@ -1,16 +1,39 @@
 .header {
   margin: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 10vh;
   width: 100vw;
   box-shadow: 0px 5px 10px #0D3F67;
+  
 }
 
-#nav-icon  {
+.logo {
+    /* -webkit-text-stroke-color: #0D3F67;
+    -webkit-text-stroke-width: 2px; */
+    text-shadow: 4px 4px 4px #0D3F67;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #F2F4F6;
+    margin-left: 1em;
+}
+
+/* .nav {
+    display: flex;
+    align-items: center;
+} */
+
+.nav .menu-icon {
+    display: none;
+}
+
+.menu-icon  {
     width: 1.8em;
     height: 1.6em;
+    margin-right: 2em;
     position: relative;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -23,7 +46,7 @@
     cursor: pointer;
   }
 
-  #nav-icon span {
+  .menu-icon span {
     display: block;
     position: absolute;
     height: 5px;
@@ -42,19 +65,19 @@
     transition: .25s ease-in-out;
   }
 
-  #nav-icon span:nth-child(1) {
+  .menu-icon span:nth-child(1) {
     top: 0px;
   }
   
-  #nav-icon span:nth-child(2) {
+  .menu-icon span:nth-child(2) {
     top: 0.6em;
   }
   
-  #nav-icon span:nth-child(3) {
-    top: 1.25em;
+  .menu-icon span:nth-child(3) {
+    top: 1.2em;
   }
   
-  #nav-icon.open span:nth-child(1) {
+  .menu-icon.open span:nth-child(1) {
     top: 18px;
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
@@ -62,29 +85,18 @@
     transform: rotate(135deg);
   }
 
-  #nav-icon.open span:nth-child(2) {
+  .menu-icon.open span:nth-child(2) {
     opacity: 0;
     left: -60px;
   }
   
-  #nav-icon.open span:nth-child(3) {
+  .menu-icon.open span:nth-child(3) {
     top: 18px;
     -webkit-transform: rotate(-135deg);
     -moz-transform: rotate(-135deg);
     -o-transform: rotate(-135deg);
     transform: rotate(-135deg);
   }
-
-.logo {
-    /* -webkit-text-stroke-color: #0D3F67;
-    -webkit-text-stroke-width: 2px; */
-    text-shadow: 4px 4px 4px #0D3F67;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #F2F4F6;
-}
 
 .header ul {
     display: flex;
@@ -110,6 +122,16 @@
 .header li a:hover,
 .header li a:active{
     color: #1EE3CF;
+}
+
+@media(max-width: 600px){
+
+    .nav ul {
+        display: none;
+    }
+    .nav .menu-icon{
+        display: block;
+    }
 }
 
 /* hr {

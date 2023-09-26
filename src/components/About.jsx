@@ -21,7 +21,7 @@ export default function About(){
             </svg>
             <section className="info">
                 <h1>Hi, my name is <span className="highlight">Elena</span></h1>
-                <p>I'm a <span className="highlight-container"><span className="highlight">Frontend Developer</span></span> based in USA.
+                <p>I'm a <span className="highlight-container"><span className="highlight">Frontend Developer</span></span> based in Sioux Falls, South Dakota.
                     I mainly use <span className="highlight-container"><span className="highlight">CSS, JavaScript, APIs and React.js</span></span>. 
                      I love creating and building beautiful and fully responsive applications.
                     <br /><br />
