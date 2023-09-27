@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 // import { Icon } from 'react-icons-kit'
 // import {menu} from 'react-icons-kit/feather/menu'
-// import {x} from 'react-icons-kit/feather/x'
+import {x} from 'react-icons-kit/feather/x'
 import '/src/components/Header.css'
 
 
@@ -18,12 +18,11 @@ export default function Header(){
             <div>
                 <header className={isOpen ? "header expanded" : "header"}>
                     <h1 className="logo">Elena Blundell</h1>
-                    <nav className={isOpen ? "nav-open" : "nav"}>
-                    <div className={isOpen ? "menu-icon open" : "menu-icon"} onClick={handleMenu}>
+                    <nav className="nav">
+                        <div className={isOpen ? "menu-icon open" : "menu-icon"} onClick={handleMenu}>
                             <span></span>
                             <span></span>
                             <span></span>
-                        {/* <Icon icon={menu} size={32} /> */}
                         </div>
                         <ul>
                             <li tabIndex="-1"><a href="#about">About</a></li>
