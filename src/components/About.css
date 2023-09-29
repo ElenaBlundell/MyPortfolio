@@ -1,5 +1,5 @@
 .about {
-    height: 89vh;
+    /* height: 89vh; */
     display: flex;
     /* margin-top: 13vh; */
     position: relative;
@@ -12,26 +12,25 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 60vw;
+    /* width: 80vw; */
+    width: 85vw;
     max-width: 700px;
     z-index: 1;
-  /* margin-bottom: 0; */
 }
 
 .about h1 {
     font-family: 'Archivo Black', sans-serif;
-    color: #F2F4F6;
     text-shadow: #0D3F67 4px 4px 4px;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     margin-bottom: 0;
-    padding-top: 1.5em;;
 }
 
 .about p {
     font-size: 1.1rem;
-    line-height: 2rem;
+    /* line-height: 2rem; */
+    line-height: 1.5rem;
     font-weight: 600;
-    color: #F2F4F6;
+    margin-bottom: 0;
 }
 
 .highlight-container,
@@ -111,8 +110,10 @@
   .about button {
       border: none;
       background: #F2F4F6;
-      padding: 1em;
-      margin: 0 1em;
+      /* padding: 1em; */
+      padding: 0.5rem;
+      /* margin: 1.5em 1em; */
+      margin: 1.5em 0.3em;
       border-radius: 20px;
       box-shadow: 0px 5px 10px #0D3F67;
       transition: all 0.3s ease 0s;
@@ -123,6 +124,6 @@
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1.3px;
+    /* letter-spacing: 1.3px; */
   }
 

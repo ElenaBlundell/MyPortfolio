@@ -22,9 +22,10 @@ export default function About(){
             <section className="info">
                 <h1>Hi, my name is <span className="highlight">Elena</span></h1>
                 <p>I'm a <span className="highlight-container"><span className="highlight">Frontend Developer</span></span> based in Sioux Falls, South Dakota.
-                    I mainly use <span className="highlight-container"><span className="highlight">CSS, JavaScript, APIs and React.js</span></span>. 
+                    I mainly use <span className="highlight-container"><span className="highlight">CSS, JavaScript, APIs and React</span></span>. 
                      I love creating and building beautiful and fully responsive applications.
-                    <br /><br />
+                </p>
+                <p>
                     I am comfortable working in <span className="highlight-container"><span className="highlight">international</span></span> teams and I have years of <span className="highlight-container"><span className="highlight">experience</span></span> working
                     in Beijing and Hong Kong within teams with diverse cultures and languages.
                 </p>

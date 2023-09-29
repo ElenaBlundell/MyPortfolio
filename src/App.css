@@ -2,6 +2,7 @@
   padding: 0;
   box-sizing: border-box;
   /* font-family: 'Open Sans', sans-serif; */
+  color: #F2F4F6;
 }
 
 #root {
@@ -13,6 +14,14 @@
   flex-direction: column;
   justify-content: center;
   /* text-align: center; */
+}
+
+h2 {
+  margin-top: 1em;
+  text-shadow: #0D3F67 4px 4px 4px;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active{

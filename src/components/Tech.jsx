@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '/src/data.jsx'
+import data from '/src/components/techData.jsx'
 import TechCard from '/src/assets/tech_card.jsx'
 
 import '/src/components/Tech.css'
