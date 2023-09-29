@@ -1,16 +1,23 @@
 import React from "react"
 
+export default function ProjectCard(props){
 
-export default function PrijectCard(props){
+    const mainTech = props.tech.map(tech => <p key={tech}>{tech}</p>)
+
     return (
             <div className="project-card">
-                <img></img>
+                <img src={props.img}></img>
                 <div className="project-info">
-                    <h4></h4>
-                    <p></p>
-                    <div className="main-tech"></div>
-                    <div className="project-links"></div>
+                    <h3>{props.title}</h3>
+                    <p>{props.description}</p>
+                    <div className="main-tech">
+                        {mainTech}
+                    </div>
+                    <div className="project-links">
+                        <a href={props.githubRepo}>View Code</a>
+                        <a href={props.liveLink}>Live Preview</a>
+                     </div>
                 </div>
             </div>
         )
-}
+} 

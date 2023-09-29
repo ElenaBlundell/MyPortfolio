@@ -6,10 +6,12 @@ import ProjectCard from '/src/components/projects/ProjectCard.jsx'
 export default function Projects(){
 
     const projectsCards = data.map(project => {
-        <ProjectCard
-            key = {project.id}
-            {...project}
-        />
+       return (
+                <ProjectCard
+                key = {project.id}
+                {...project}
+                />
+       ) 
     })
 
     return (

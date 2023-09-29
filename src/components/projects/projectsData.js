@@ -1,4 +1,4 @@
-import { faTicketSimple } from "@fortawesome/free-solid-svg-icons";
+// import { faTicketSimple } from "@fortawesome/free-solid-svg-icons";
 
 export default [
     {
