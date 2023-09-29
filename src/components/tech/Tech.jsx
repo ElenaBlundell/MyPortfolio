@@ -1,8 +1,8 @@
 import React from 'react'
-import data from '/src/components/techData.jsx'
-import TechCard from '/src/assets/tech_card.jsx'
+import data from '/src/components/tech/techData.jsx'
+import TechCard from '/src/components/tech/TechCard.jsx'
 
-import '/src/components/Tech.css'
+import '/src/components/tech/Tech.css'
 
 
 export default function Tech(){

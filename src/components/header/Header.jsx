@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 // import { Icon } from 'react-icons-kit'
 // import {menu} from 'react-icons-kit/feather/menu'
-import {x} from 'react-icons-kit/feather/x'
-import '/src/components/Header.css'
+// import {x} from 'react-icons-kit/feather/x'
+import '/src/components/header/Header.css'
 
 
 
