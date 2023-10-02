@@ -1,7 +1,58 @@
 .projects{
-    background: #6B48FF; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #1EE3CF, #6B48FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #0D3F67; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #1EE3CF, #0D3F67);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #1EE3CF, #0D3F67); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* height: 100vh; */
     text-align: center;
 }
+
+.projects-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background-color: rgb(242, 244, 246, 0.3);
+    width: 85vw;
+    border-radius: 20px;
+    /* margin: 0 auto; */
+    padding: 2em;
+    margin-bottom: 1.5em;
+    
+}
+
+.project-card img {
+    display: block;
+    width: 100%;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    text-shadow: #0D3F67 4px 4px 4px;
+}
+
+.project-info p {
+    font-weight: 600;
+    font-size: 1.1rem;
+    /* line-height: 2rem; */
+}
+
+.project-info ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    /* margin: 0; */
+}
+
+.project-info ul li {
+    color: #0D3F67;
+    padding: 5px;
+    margin: 0.5em;
+    font-weight: bold;
+    
+    /* border: 1px solid #6B48FF; */
+}
+
+
+    

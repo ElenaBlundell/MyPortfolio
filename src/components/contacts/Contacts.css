@@ -1,0 +1,57 @@
+.contacts {
+    background: #0D3F67; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #0D3F67, #1EE3CF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #0D3F67, #1EE3CF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    text-align: center;
+    
+}
+
+.contacts form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    width: 85vw;
+    /* color: #0D3F67; */
+}
+
+.contacts div {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.off-screen {
+    left: -100vw;
+    position: absolute;
+  }
+
+.contacts ::placeholder{
+    color: #F2F4F6;
+    opacity: 0.7;
+}
+
+.contacts form input,
+.contacts form textarea {
+    margin: 1em;
+    padding: 1.2em;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(242, 244, 246, 0.3);
+    color: #0D3F67;
+    font-weight: bold;
+}
+
+.contacts form textarea {
+    height: 10em;
+}
+
+.contacts form input[type=submit] {
+    padding: 0.6em 2em;
+}
+
+
+/* .contacts form  */

@@ -5,6 +5,7 @@ import Header from './components/header/Header.jsx'
 import About from './components/about/About.jsx'
 import Tech from './components/tech/Tech.jsx'
 import Projects from './components/projects/Projects.jsx'
+import Contacts from './components/contacts/Contacts.jsx'
 import './App.css'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
@@ -20,6 +21,7 @@ function App() {
     <About />
     <Tech />
     <Projects />
+    <Contacts />
     </>
   )
 }
