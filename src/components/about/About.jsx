@@ -30,7 +30,7 @@ export default function About(){
                     in Beijing and Hong Kong within teams with diverse cultures and languages.
                 </p>
                 <div className="buttons-block">
-                    <button><a href="#tech" tabIndex="-1">See tech I use</a></button>
+                    <button><a href="#contact" tabIndex="-1">Contact me</a></button>
                     <button><a href="#projects" tabIndex="-1">Jump to my projects</a></button>
                 </div>
             </section>

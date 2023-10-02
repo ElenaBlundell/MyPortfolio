@@ -1,9 +1,9 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 
-import '/src/components/contacts/Contacts.css'
+import '/src/components/contactMe/ContactMe.css'
 
-export default function Contacts(){
+export default function ContactMe(){
 
     const form = useRef();
 
@@ -20,8 +20,8 @@ export default function Contacts(){
   }
 
   return (
-      <div id="contacts" className="contacts">
-            <h2>Contacts</h2>
+      <div id="contact" className="contact">
+            <h2>Contact Me</h2>
             <form ref={form} onSubmit={sendEmail}>
                 <div>
                     <label className="off-screen" htmlFor="user_name">Name</label>

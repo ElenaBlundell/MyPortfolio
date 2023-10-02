@@ -1,0 +1,32 @@
+.footer {
+    background-color: #1EE3CF;
+}
+
+.footer .wrapper {
+    
+    width: 100%;
+    height: 4em;
+    background-color: rgb(242, 244, 246, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    padding: 0 1em;
+    color: #0D3F67;
+}
+
+.footer a {
+    display: block;
+    margin: 0 0.2em;
+}
+
+.footer .contactLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+}
+

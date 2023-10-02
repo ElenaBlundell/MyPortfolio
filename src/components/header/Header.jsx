@@ -28,7 +28,7 @@ export default function Header(){
                             <li tabIndex="-1"><a href="#about">About</a></li>
                             <li tabIndex="-1"><a href="#tech">Tech stack</a></li>
                             <li tabIndex="-1"><a href="#projects">Projects</a></li>
-                            <li tabIndex="-1"><a href="#contacts">Contacts</a></li>
+                            <li tabIndex="-1"><a href="#contact">Contact Me</a></li>
                         </ul>
                        
                     </nav>
