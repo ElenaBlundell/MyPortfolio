@@ -21,7 +21,7 @@ export default function TechCard(props){
                 target="_blank" 
                 rel="noopener noreferrer"
                 tabIndex="-1">
-                    <img src={props.techIcon} className="icon" alt={props.name + "icon"} />
+                    <img src={props.techIcon} className="icon" alt="Icon" />
                     <p>{props.name}</p>
                 </a>
             </div>
