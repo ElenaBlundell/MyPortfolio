@@ -56,7 +56,7 @@ export default  [
         id: 6,
         name: "Netlify",
         type: "img",
-        techIcon: "../public/netlify.svg",
+        techIcon: "/netlify.svg",
         techUrl: "https://www.netlify.com/about/"
     },
 
