@@ -7,7 +7,6 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faNpm} from '@fortawesome/free-brands-svg-icons'
 import {faBootstrap} from '@fortawesome/free-brands-svg-icons'
 import {faFigma} from '@fortawesome/free-brands-svg-icons'
-import {vscode} from './public/icons/vscode.svg'
 
 // import netlify from '../public/icons/netlify.svg';
 
@@ -81,7 +80,7 @@ export default  [
         id: 9,
         name: "VSCode",
         type: "img",
-        techIcon: {vscode},
+        techIcon:  "./public/icons/vscode.svg",
         techUrl: "https://code.visualstudio.com/"
     },
 
