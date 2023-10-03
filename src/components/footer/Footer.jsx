@@ -4,7 +4,6 @@ import { Icon } from 'react-icons-kit'
 import {linkedinSquare} from 'react-icons-kit/fa/linkedinSquare'
 import {githubSquare} from 'react-icons-kit/fa/githubSquare'
 import {envelope} from 'react-icons-kit/fa/envelope'
-import {heartO} from 'react-icons-kit/fa/heartO'
 
 import '/src/components/footer/Footer.css'
 
