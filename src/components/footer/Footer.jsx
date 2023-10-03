@@ -13,7 +13,7 @@ export default function Footer(){
     return (
         <div className="footer" >
             <div className="wrapper">
-                <p>Designed and coded with <span style={{ color: '#6B48FF' }}> <Icon icon={heartO} /> </span>  by Elena Blundell.</p>
+                <p>Designed and coded by Elena Blundell</p>
                     <div className="contactLinks">
                         <a 
                             href="https://www.linkedin.com/in/elena-blundell/" 
@@ -24,20 +24,20 @@ export default function Footer(){
                             <Icon size="1.5em" icon={linkedinSquare} color= '#0D3F67'/>
                         </a>
                         <a 
+                            href="mailto:blundell.elena@gmail.com"
+                            target="_blank" 
+                            rel="noreferrer" 
+                            style={{ color: '#0D3F67' }}
+                        >
+                            <Icon size="1.5em" icon={envelope} />
+                        </a>
+                        <a 
                             href="https://github.com/ElenaBlundell" 
                             target="_blank" 
                             rel="noreferrer" 
                             style={{ color: '#0D3F67' }} 
                         >
                             <Icon size="1.5em" icon={githubSquare}/>
-                        </a>
-                        <a 
-                            href="mailto:blundell.elena@gmail.com"
-                            target="_blank" 
-                            rel="noreferrer" 
-                            style={{ color: '#0D3F67' }}
-                        >
-                            <Icon size="1.6em" icon={envelope} />
                         </a>
                     </div>
             </div>
