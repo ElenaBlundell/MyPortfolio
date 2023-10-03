@@ -17,6 +17,10 @@
   color: #F2F4F6;
 }
 
+section {
+  padding-bottom: 3em;
+}
+
 h2 {
   margin-top: 1em;
   font-size: 2rem;
@@ -27,6 +31,7 @@ h2,
 h3 {
   text-shadow: #0D3F67 4px 4px 4px;
   font-family: 'Archivo Black', sans-serif;
+  margin-bottom: 1.5em;
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active{
@@ -34,13 +39,12 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
   cursor: pointer;
 }
 
-.project-info a,
-form input[type=submit] {
+.btn {
   color: #0D3F67;
   background-color: #F2F4F6;
   text-transform: uppercase;
   margin: 0.5em;
-  padding: 8px;
+  padding: 0.8em;
   font-family: 'Quicksand', sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
@@ -48,3 +52,8 @@ form input[type=submit] {
   border-radius: 20px;
 }
 
+.btn:hover {
+  background-color: #0D3F67;
+  color: #F2F4F6;
+  border: 2px solid #F2F4F6;
+}

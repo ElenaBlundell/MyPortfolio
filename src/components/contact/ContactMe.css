@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    margin: 0 auto 5em;
+    margin: 0 auto 3em;
     width: 85vw;
 }
 
@@ -49,4 +49,9 @@
 
 .contact form input[type=submit] {
     padding: 0.6em 2em;
+    background-color: #F2F4F6;
+}
+
+.contact form input[type=submit]:hover {
+        background-color: #0D3F67;
 }

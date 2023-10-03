@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 
-import '/src/components/contactMe/ContactMe.css'
+import '/src/components/contact/ContactMe.css'
 
 export default function ContactMe(){
 
@@ -20,7 +20,7 @@ export default function ContactMe(){
   }
 
   return (
-      <div id="contact" className="contact">
+      <section id="contact" className="contact">
             <h2>Contact Me</h2>
             <form ref={form} onSubmit={sendEmail}>
                 <div>
@@ -33,9 +33,9 @@ export default function ContactMe(){
                     <label className="off-screen" htmlFor="message">Message</label>
                     <textarea name="message" placeholder="Your message" required />
                 </div>
-                <input type="submit" value="Send" />
+                <input className="btn" type="submit" value="Send" />
             </form>
-    </div>
+    </section>
   )
 }
 

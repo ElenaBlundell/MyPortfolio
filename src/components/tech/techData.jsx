@@ -73,7 +73,7 @@ export default  [
         name: "Figma",
         type: "icon",
         techIcon: <FontAwesomeIcon className="icon" icon={faFigma} style={{color: "#f2f4f6",}} />,
-        techUrl: "https://www.figma.com/"
+        techUrl: "https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma-"
     },
 
     {

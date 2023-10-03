@@ -32,6 +32,11 @@
     transition: all 0.3s ease 0s;
   }
 
+  .tech-card:hover {
+    transform: scale(1.2);
+    background-color: #0D3F67;
+  }
+
   .tech-card p {
     font-size: 0.9rem;
     margin: 0;
@@ -41,8 +46,14 @@
     color: #F2F4F6;
   }
 
+  .tech a:hover {
+    color: #1EE3CF;
+  }
+
   .tech .icon {
       /* height: 2.5em; */
       height: 2em;
       width: auto;
   }
+
+  

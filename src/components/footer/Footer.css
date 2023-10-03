@@ -3,7 +3,6 @@
 }
 
 .footer .wrapper {
-    
     width: 100%;
     height: 4em;
     background-color: rgb(242, 244, 246, 0.5); 
@@ -25,7 +24,9 @@
 .footer .contactLinks {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center;
 }
 
+.footer a:hover {
+    transform:scale(1.2)
+}

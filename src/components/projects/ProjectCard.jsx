@@ -14,8 +14,22 @@ export default function ProjectCard(props){
                         {mainTech}
                     </ul>
                     <div className="project-links">
-                        <a href={props.githubRepo}>View Code</a>
-                        <a href={props.liveLink}>Live Preview</a>
+                        <a 
+                            className="btn" 
+                            href={props.githubRepo}
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            View Code
+                        </a>
+                        <a 
+                            className="btn" 
+                            href={props.liveLink}
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                        >
+                            Live Preview
+                        </a>
                      </div>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import '/src/components/about/About.css'
 
 export default function About(){
  return (
-         <div className="about">
+         <div id="about" className="about">
             <svg className="blob-spin-right" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                 <path fill="#1EE3CF" d="M35.5,-61C49.7,-53.4,67.3,-51.2,75.7,-41.9C84.2,-32.7,83.6,-16.3,82.7,-0.5C81.9,15.3,80.8,30.7,72.2,39.7C63.6,48.8,47.5,51.6,34.2,59.8C21,68,10.5,81.5,0,81.4C-10.4,81.4,-20.8,67.8,-31.7,58.2C-42.5,48.6,-53.7,43,-64.7,34C-75.7,25,-86.5,12.5,-89.2,-1.6C-91.9,-15.6,-86.5,-31.2,-76.3,-41.6C-66,-51.9,-50.9,-57,-37.4,-65C-23.9,-73,-11.9,-84,-0.6,-82.9C10.7,-81.8,21.4,-68.7,35.5,-61Z" transform="translate(100 100)" />
             </svg>
@@ -29,9 +29,9 @@ export default function About(){
                     I am comfortable working in <span className="highlight-container"><span className="highlight">international</span></span> teams and I have years of <span className="highlight-container"><span className="highlight">experience</span></span> working
                     in Beijing and Hong Kong within teams with diverse cultures and languages.
                 </p>
-                <div className="buttons-block">
-                    <button><a href="#contact" tabIndex="-1">Contact me</a></button>
-                    <button><a href="#projects" tabIndex="-1">Jump to my projects</a></button>
+                <div className="links-block">
+                    <a href="#contact" tabIndex="-1" className="btn">Contact me</a>
+                    <a href="#projects" tabIndex="-1" className="btn">Jump to my projects</a>
                 </div>
             </section>
         </div>

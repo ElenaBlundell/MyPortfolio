@@ -11,7 +11,7 @@ import '/src/components/footer/Footer.css'
 export default function Footer(){
 
     return (
-        <div className="footer" >
+        <footer className="footer" >
             <div className="wrapper">
                 <p>Designed and coded by Elena Blundell</p>
                     <div className="contactLinks">
@@ -41,6 +41,6 @@ export default function Footer(){
                         </a>
                     </div>
             </div>
-        </div>
+        </footer>
     )
 }

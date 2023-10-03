@@ -1,5 +1,4 @@
 .about {
-    /* height: 89vh; */
     display: flex;
     /* margin-top: 13vh; */
     position: relative;
@@ -107,23 +106,7 @@
 
   }
 
-  .about button {
-      border: none;
-      background: #F2F4F6;
-      /* padding: 1em; */
-      padding: 0.5rem;
-      /* margin: 1.5em 1em; */
-      margin: 1.5em 0.3em;
-      border-radius: 20px;
-      box-shadow: 0px 5px 10px #0D3F67;
-      /* transition: all 0.3s ease 0s; */
-  }
-
-  .about button a {
-    color: #0D3F67;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    /* letter-spacing: 1.3px; */
+  .about .links-block {
+    margin-top: 1.5em;
   }
 

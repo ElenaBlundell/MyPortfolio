@@ -15,10 +15,10 @@ export default [
         id: 2,
         title: "My Portfolio",
         img: "./public/images/quote-oasis.gif",
-        description: "This portfolio. Here I add projects that I built myself without tutorials. You can find my personal info here and contact me through the form.",
+        description: "This portfolio. Here I add projects that I built myself. You can find my personal info here and contact me through the form.",
         tech: ["React", "npm", "JavaScript"],
         githubRepo: "https://github.com/ElenaBlundell/MyPortfolio",
-        liveLink: ""
+        liveLink: "https://elenablundell.github.io/MyPortfolio/"
     }
 
 ]
