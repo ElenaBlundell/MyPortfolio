@@ -56,7 +56,7 @@ export default  [
         id: 6,
         name: "Netlify",
         type: "img",
-        techIcon: "./netlify.svg",
+        techIcon: "./icons/netlify.svg",
         techUrl: "https://www.netlify.com/about/"
     },
 
@@ -80,7 +80,7 @@ export default  [
         id: 9,
         name: "VSCode",
         type: "img",
-        techIcon:  "./vscode.svg",
+        techIcon:  "./icons/vscode.svg",
         techUrl: "https://code.visualstudio.com/"
     },
 
@@ -88,7 +88,7 @@ export default  [
         id: 10,
         name: "Vite",
         type: "img",
-        techIcon:  "./vite.svg",
+        techIcon:  "./icons/vite.svg",
         techUrl: "https://vitejs.dev/guide/"
     },
 
