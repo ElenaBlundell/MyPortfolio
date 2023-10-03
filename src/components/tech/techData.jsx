@@ -80,7 +80,7 @@ export default  [
         id: 9,
         name: "VSCode",
         type: "img",
-        techIcon:  "../public/icons/vscode.svg",
+        techIcon:  "./vscode.svg",
         techUrl: "https://code.visualstudio.com/"
     },
 
@@ -88,7 +88,7 @@ export default  [
         id: 10,
         name: "Vite",
         type: "img",
-        techIcon:  "/public/icons/vite.svg",
+        techIcon:  "./vite.svg",
         techUrl: "https://vitejs.dev/guide/"
     },
 
