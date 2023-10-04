@@ -13,7 +13,7 @@ export default function ProjectCard(props){
                     <ul className="main-tech">
                         {mainTech}
                     </ul>
-                    <div className="project-links">
+                    <div className="links-block">
                         <a 
                             className="btn" 
                             href={props.githubRepo}

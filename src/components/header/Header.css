@@ -1,5 +1,6 @@
 .header {
   margin: 0;
+  padding: 0 0.3em;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -15,7 +16,8 @@
     -webkit-text-stroke-width: 2px; */
     text-shadow: 4px 4px 4px #0D3F67;
     font-family: 'Archivo Black', sans-serif;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
     /* margin-left: 1.5rem; */
@@ -30,11 +32,13 @@
 
 .nav .menu-icon  {
     display: none;
-    width: 2.2em;
-    height: 2em;
+    /* width: 2.2em;
+   */
+
+    width: 2em;
     /* margin-right: 1.5em; */
     margin-right: 0.4em;
-    margin-top: 1.4em;;
+    margin-top: 1.3em;;
     position: relative;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -50,7 +54,8 @@
   .menu-icon span {
     display: block;
     position: absolute;
-    height: 5px;
+    /* height: 5px; */
+    height: 4px;
     width: 85%;
     background: #F2F4F6;
     box-shadow: 4px 4px 4px #0D3F67;
@@ -66,19 +71,24 @@
     transition: .25s ease-in-out;
   }
 
+  .menu-icon:hover > span {
+    background: #1EE3CF;
+  }
+
   .menu-icon span:nth-child(1) {
     top: 0px;
   }
   
   .menu-icon span:nth-child(2) {
-    top: 0.6em;
+    /* top: 0.6em; */
+    top: 0.5em;
   }
   
   .menu-icon span:nth-child(3) {
-    top: 1.22em;
+    /* top: 1.22em; */
+    top: 1em
   }
 
-  
   .menu-icon.open span:nth-child(1) {
     top: 18px;
     -webkit-transform: rotate(135deg);
@@ -160,7 +170,7 @@
     .header.expanded .menu-icon.open {
         /* display: block; */
         position: absolute;
-        top: -0.3em;
+        top: -0.4em;
         right: 0;
     }
 
@@ -180,7 +190,7 @@
         font-size: 1.1em;
         text-align: center;
         
-        width: 100%;
+        width: 102%;
         box-shadow: 0 2px 8px #0D3F67;
     }
 

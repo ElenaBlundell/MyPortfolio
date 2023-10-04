@@ -1,10 +1,12 @@
 .about {
     display: flex;
+    margin: 0 auto;
     /* margin-top: 13vh; */
     position: relative;
     /* overflow: hidden; */
     align-items: center;
     justify-content: center;
+    max-width: 800px;
 }
 
 .info {
@@ -57,29 +59,70 @@
     padding: 10px 3px 3px 10px;
 }
 
-.blob-spin-right {
+.blob {
+  margin-top: 4em;
+}
+
+.spin-right {
     position: absolute;
     opacity: 0.4;
-    left: 30%;
+    left: 27%;
     z-index: 0;
     height: 103%;
     animation: Spin-right infinite 10s linear;
 }
 
-.blob-center {
+.center {
     position: absolute;
     z-index: 0;
     height: 105%;
     animation: Spin-left infinite 10s linear;
 }
 
-.blob-spin-left {
+.spin-left {
     position: absolute;
     opacity: 0.3;
-    right: 30%;
+    right: 27%;
     z-index: 0;
     height: 103%;
     animation: Spin-left infinite 15s linear;
+}
+
+@media (min-width: 515px){
+
+  .info {
+    width: 70%;
+    margin-top: 1.5em;
+  }
+}
+
+@media (min-width: 635px) {
+  
+  .blob {
+    margin-top: 7em;
+  }
+
+  .about{
+    padding-bottom: 6em;
+  }
+}
+
+@media (min-width: 715px) {
+
+  .blob {
+    margin-top: 8em;
+    height: 90%;
+  }
+
+  .about {
+    padding-bottom: 10em;
+  }
+
+  .info {
+    margin-top: 6em;
+    width: 60%;
+  }
+
 }
 
   @keyframes Spin-right {
@@ -106,7 +149,4 @@
 
   }
 
-  .about .links-block {
-    margin-top: 1.5em;
-  }
-
+  
