@@ -23,13 +23,13 @@ export default function ContactMe(){
       <section id="contact" className="contact">
             <h2>Contact Me</h2>
             <form ref={form} onSubmit={sendEmail}>
-                <div>
+                <div className="sender-info">
                     <label className="off-screen" htmlFor="user_name">Name</label>
                     <input type="text" name="user_name" placeholder="Name" required />
                     <label className="off-screen" htmlFor="user_email">Email</label>
                     <input type="email" name="user_email" placeholder="Email" required />
                 </div>
-                <div>
+                <div className="message">
                     <label className="off-screen" htmlFor="message">Message</label>
                     <textarea name="message" placeholder="Your message" required />
                 </div>
@@ -38,11 +38,4 @@ export default function ContactMe(){
     </section>
   )
 }
-
-//     return (
-//         <div id="contacts" className="contacts">
-//             <h2>Contacts</h2>
-//         </div>
-//     )
-// }
   

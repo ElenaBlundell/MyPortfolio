@@ -14,11 +14,10 @@ export default [
     {
         id: 2,
         title: "My Portfolio",
-        img: "./images/portfolio-img.png",
-        description: "This portfolio. Here I add projects that I built myself. You can find my personal info here and contact me through the form.",
+        img: "./images/portfolio-img.gif",
+        description: "This portfolio. Here I add big projects that I built myself. You can find my personal info and contact me through the form. I included this project here to provide the easiest way to it's code. ",
         tech: ["React", "npm", "JavaScript"],
         githubRepo: "https://github.com/ElenaBlundell/MyPortfolio",
         liveLink: "https://elenablundell.github.io/MyPortfolio/"
     }
-
 ]

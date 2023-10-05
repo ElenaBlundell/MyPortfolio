@@ -1,19 +1,14 @@
 *  {
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Open Sans', sans-serif; */
-  
 }
 
 #root {
   width: 100vw;
-  /* max-width: 1280px; */
   margin: 0;
-  /* padding: 0; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* text-align: center; */
   color: #F2F4F6;
 }
 
@@ -63,4 +58,73 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
   background-color: #0D3F67;
   color: #F2F4F6;
   border: 2px solid #F2F4F6;
+}
+
+@media (min-width: 635px) {
+
+  .logo {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+  }
+
+  .nav .menu-icon  {
+    width: 2.2em;
+    margin-right: 1.5em;
+  }
+
+  .menu-icon span {
+    height: 5px;
+  }
+
+  .menu-icon span:nth-child(2) {
+    top: 0.6em;
+  }
+  
+  .menu-icon span:nth-child(3) {
+    top: 1.22em;
+  }
+  
+  .about .blob {
+    margin-top: 7em;
+    height: 105%;
+  }
+
+  .about {
+    padding-bottom: 5em;
+  }
+
+  .about p {
+    line-height: 2rem;
+  }
+
+  .tech-card {
+    width: 6.5em;
+    height: 6.5em;
+    margin: 1em;
+  }
+
+  .tech .icon {
+    height: 2.5em;
+    width: auto;
+}
+
+form .sender-info input {
+  width: 45%;
+}
+
+.contact .sender-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact form textarea {
+  height: 15em;
+}
+
+footer .social-icon  {
+  font-size: 1.2em;
+}
+
 }

@@ -3,7 +3,6 @@
     background: -webkit-linear-gradient(to bottom, #0D3F67, #1EE3CF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #0D3F67, #1EE3CF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     text-align: center;
-    
 }
 
 .contact form {
@@ -14,9 +13,11 @@
     align-items:center;
     margin: 0 auto 3em;
     width: 85vw;
+    max-width: 600px;
 }
 
-.contact div {
+.contact .sender-info,
+.contact .message {
     display: flex;
     flex-direction: column;
     width: 100%
@@ -53,5 +54,5 @@
 }
 
 .contact form input[type=submit]:hover {
-        background-color: #0D3F67;
+    background-color: #0D3F67;
 }

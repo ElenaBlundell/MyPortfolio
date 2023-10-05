@@ -2,29 +2,51 @@
     background: #0D3F67; /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #1EE3CF, #0D3F67);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #1EE3CF, #0D3F67); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* height: 100vh; */
     text-align: center;
 }
 
 .projects-cards {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0.5em; 
     justify-content: center;
+    max-width: 850px;
 }
 
 .project-card {
     background-color: rgb(242, 244, 246, 0.3);
-    width: 85vw;
+    width: 86vw;
+    max-width: 30em;
     border-radius: 20px;
-    /* margin: 0 auto; */
-    padding: 2em;
-    margin-bottom: 1.5em;
-    
+    padding: 1.8em;
+    margin: 0 0.5em 1.5em;
+}
+
+.project-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .project-card img {
     display: block;
     width: 100%;
+    height: auto;
+}
+
+
+@media (min-width: 850px) {
+    
+    .project-card {
+        width: 25em;
+    }
+
+    .project-card img {
+        height: 15em;
+        width: auto;
+    }
 }
 
 .project-card h3 {
@@ -35,7 +57,6 @@
 .project-info p {
     font-weight: 600;
     font-size: 1.1rem;
-    /* line-height: 2rem; */
 }
 
 .project-info ul {

@@ -12,15 +12,20 @@ export default function Footer(){
     return (
         <footer className="footer" >
             <div className="wrapper">
-                <p>Designed and coded by Elena Blundell</p>
+                <div className="footer-info">
+                    <p>Designed and coded by Elena Blundell</p>
                     <div className="contactLinks">
                         <a 
                             href="https://www.linkedin.com/in/elena-blundell/" 
                             target="_blank" 
                             rel="noreferrer" 
                             style={{ color: '#0D3F67' }} 
-                            >
-                            <Icon size="1.5em" icon={linkedinSquare} color= '#0D3F67'/>
+                        >
+                            <Icon 
+                                icon={linkedinSquare}
+                                size="1.5em"  
+                                className="social-icon"
+                            />
                         </a>
                         <a 
                             href="mailto:blundell.elena@gmail.com"
@@ -28,7 +33,11 @@ export default function Footer(){
                             rel="noreferrer" 
                             style={{ color: '#0D3F67' }}
                         >
-                            <Icon size="1.5em" icon={envelope} />
+                            <Icon 
+                                icon={envelope}
+                                size="1.5em" 
+                                className="social-icon" 
+                            />
                         </a>
                         <a 
                             href="https://github.com/ElenaBlundell" 
@@ -36,9 +45,13 @@ export default function Footer(){
                             rel="noreferrer" 
                             style={{ color: '#0D3F67' }} 
                         >
-                            <Icon size="1.5em" icon={githubSquare}/>
+                            <Icon 
+                                icon={githubSquare}
+                                size="1.5em" 
+                                className="social-icon" />
                         </a>
                     </div>
+                </div>
             </div>
         </footer>
     )
