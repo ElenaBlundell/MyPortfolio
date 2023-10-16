@@ -22,7 +22,7 @@ export default [
     {
         id: 3,
         title: "World Wonders",
-        img: "./images/worl-wonders.png",
+        img: "./images/world-wonders.png",
         description: "7 Wonders of the World. Wonders of the world are rndered with the use of React components.",
         tech: ["React", "Vite", "JavaScript"],
         githubRepo: "https://github.com/ElenaBlundell/World-Wonders",
