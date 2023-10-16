@@ -17,5 +17,25 @@ export default [
         tech: ["React", "npm", "JavaScript"],
         githubRepo: "https://github.com/ElenaBlundell/MyPortfolio",
         liveLink: "https://elenablundell.github.io/MyPortfolio/"
-    }
+    },
+
+    {
+        id: 3,
+        title: "World Wonders",
+        img: "./images/worl-wonders.png",
+        description: "7 Wonders of the World. Wonders of the world are rndered with the use of React components.",
+        tech: ["React", "Vite", "JavaScript"],
+        githubRepo: "https://github.com/ElenaBlundell/World-Wonders",
+        liveLink: "https://elenablundell.github.io/World-Wonders/"
+    },
+
+    {
+        id: 4,
+        title: "Color Scheme",
+        img: "./images/color-scheme.png",
+        description: "Choose a color and generate beautiful color palette. Monochrome, analogic, complement and their combinations.",
+        tech: ["JavaScript", "API"],
+        githubRepo: "https://github.com/ElenaBlundell/Color-Scheme",
+        liveLink: "https://elenablundell.github.io/Color-Scheme/"
+    },
 ]
